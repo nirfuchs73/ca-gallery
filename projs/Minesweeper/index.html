@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body onload="initGame()" oncontextmenu="return false;">
+    <!-- <div>
+        <h3>Select Level:</h3>
+    </div> -->
+    <div>
+        <input id="level4" type="radio" name="level" class="level" value="4" onclick="radioClicked(this)" checked>
+        <label for="level4">Beginner</label>
+    </div>
+    <div>
+        <input id="level6" type="radio" name="level" class="level" value="6" onclick="radioClicked(this)">
+        <label for="level6">Medium</label>
+    </div>
+    <div>
+        <input id="level8" type="radio" name="level" class="level" value="8" onclick="radioClicked(this)">
+        <label for="level8">Expert</label>
+    </div>
+    <div>
+        <h3 class="best-time">Best Time:</h3>
+    </div>
+    <div>
+        <table border="1" class="info">
+            <tr>
+                <td>
+                    <h3 class="mines-count"></h3>
+                </td>
+                <td>
+                    <h3 class="game-status"></h3>
+                </td>
+                <td>
+                    <h3 class="time"></h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table border="0">
+            <tr>
+                <td class="show-hint" onclick="hintClicked(this)">💡</td>
+                <td class="show-hint" onclick="hintClicked(this)">💡</td>
+                <td class="show-hint" onclick="hintClicked(this)">💡</td>
+            </tr>
+        </table>
+    </div>
+    <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+    </table>
+
+    <script src="js/util.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

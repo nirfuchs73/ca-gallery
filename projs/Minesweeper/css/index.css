@@ -1,0 +1,44 @@
+/* .time{
+    display: inline;
+}
+
+.mines-count{
+    display: inline;
+} */
+
+h3 {
+    /* display: inline; */
+    margin: 5px;
+}
+
+/* h4 {
+    display: inline;
+} */
+
+td {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label {
+    /* font-size: 15px; */
+    font-weight: bold;
+}
+
+.info td {
+    background-color: lightgray;
+    height: 20px;
+    width: 70px;
+}
+
+.show-hint {
+    cursor: pointer;
+}
