@@ -43,3 +43,7 @@ function renderModal(id) {
     $('.portfolio-modal .project-category').text(project.category);
     $('.portfolio-modal .project-url').attr('href', project.url);
 }
+
+function onContact() {
+    sendEmail();
+}

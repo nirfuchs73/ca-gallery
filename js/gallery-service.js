@@ -53,3 +53,9 @@ function getYearByTimestamp(timestamp) {
     date = new Date(timestamp);
     return date.getFullYear();
 }
+
+function sendEmail() {
+    var emailAddress = 'nirfuch73@gmail.com';
+    var url = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&to=' + emailAddress + '&su=SUBJECT&body=BODY';
+    window.open(url);
+}
