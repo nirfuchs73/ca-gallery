@@ -32,7 +32,7 @@ function renderProjects() {
 
 function renderModal(id) {
     var project = getProjectById(id);
-    console.log(project.url);
+    // console.log(project.url);
     $('.portfolio-modal .project-name').text(project.name);
     $('.portfolio-modal .project-desc').text(project.desc);
     $('.portfolio-modal .project-img').attr('src', project.img);
